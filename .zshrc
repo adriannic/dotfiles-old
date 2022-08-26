@@ -48,6 +48,7 @@ alias zshconf="$EDITOR ~/.zshrc"
 alias edit="$EDITOR"
 alias bye="shutdown now"
 alias cya="reboot"
+alias nv="neovide . && exit"
 
 ## Laptop specific aliases
 
