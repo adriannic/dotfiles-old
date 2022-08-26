@@ -29,6 +29,9 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export XCURSOR_PATH=/usr/share/icons:${XDG_DATA_HOME}/icons
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
+# Update alias
+alias zshupdate='echo "Updating..." && git clone https://github.com/adriannic/dotfiles.git > /dev/null 2> /dev/null && cp dotfiles/.zshrc ~ && rm -rf dotfiles && echo "Updated successfully"'
+
 # Aliases
 alias ls="exa -ghmuU --git"
 alias ols="/usr/bin/ls"
