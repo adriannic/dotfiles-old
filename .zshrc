@@ -30,7 +30,7 @@ export XCURSOR_PATH=/usr/share/icons:${XDG_DATA_HOME}/icons
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
 # Update alias
-alias zshupdate='echo "Updating..." && curl https://raw.githubusercontent.com/adriannic/dotfiles/main/.zshrc > ~/.zshrc && echo "Updated successfully"' 
+alias zshupdate='echo "Updating..." && curl https://raw.githubusercontent.com/adriannic/dotfiles/main/.zshrc --output ~/.zshrc 2> /dev/null > /dev/null && echo "Updated successfully"' 
 
 # Aliases
 alias ls="exa -ghmuU --git"
