@@ -51,7 +51,7 @@ alias cya="reboot"
 alias nv="neovide . && exit"
 
 ## Laptop specific aliases
-alias torre="ssh adriannic@89.23.101.208"
+alias torre="ssh adriannic@88.23.101.208"
 
 ## Desktop specific aliases
 alias towindows="systemctl reboot --boot-loader-entry=auto-windows"
