@@ -56,7 +56,6 @@ alias torre="ssh adriannic@88.23.101.208"
 
 ## Desktop specific aliases
 alias towindows="systemctl reboot --boot-loader-entry=auto-windows"
-alias tablet='xsetwacom set "Wacom One by Wacom M Pen stylus" MapToOutput HEAD-0'
 
 # Plugins
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
