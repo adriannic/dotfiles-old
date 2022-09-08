@@ -48,7 +48,7 @@ alias zshconf="$EDITOR ~/.zshrc"
 alias edit="$EDITOR"
 alias bye="shutdown now"
 alias cya="reboot"
-alias p10kred="sed 's/typeset -g POWERLEVEL9K_DIR_BACKGROUND=4/typeset -g POWERLEVEL9K_DIR_BACKGROUND=1/' ~/.p10k.zsh > ~/.p10k.zsh"
+alias p10kred="sed -i 's/typeset -g POWERLEVEL9K_DIR_BACKGROUND=4/typeset -g POWERLEVEL9K_DIR_BACKGROUND=1/' ~/.p10k.zsh"
 
 ## Laptop specific aliases
 alias torre="ssh adriannic@88.23.101.208"
