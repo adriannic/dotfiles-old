@@ -58,6 +58,11 @@ alias torre="ssh adriannic@88.23.101.208"
 ## Desktop specific aliases
 alias towindows="systemctl reboot --boot-loader-entry=auto-windows"
 
+# Functions
+function burn() {
+  sudo dd bs=4M if=$1 of=$2 conv=fsync oflag=direct status=progress
+}
+
 # Plugins
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
