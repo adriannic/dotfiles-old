@@ -53,6 +53,8 @@ alias open="xdg-open"
 alias aoc="/home/adriannic/Universidad/3/1/aoc/aoc-docker-image"
 alias kirby="dolphin-emu -e ~/Juegos/Roms/Kirby\'s\ Return\ to\ Dream\ Land.iso"
 alias time="/usr/bin/time"
+[ $TERM = "xterm-kitty" ] && alias icat="kitty +kitten icat"
+[ $TERM = "xterm-kitty" ] && alias diff="kitty +kitten diff"
 
 ## Laptop specific aliases
 alias torre="ssh adriannic@88.23.101.208"
