@@ -41,7 +41,6 @@ alias la="ls -a"
 alias ll="ls -l"
 alias diff="diff --color=auto"
 alias grep="grep --color=auto"
-alias ip="ip -color=auto"
 alias myip="curl http://ipecho.net/plain; echo"
 alias space="du -ahd1 2> /dev/null | sort -h"
 alias zshconf="$EDITOR ~/.zshrc"
@@ -50,14 +49,10 @@ alias bye="shutdown now"
 alias cya="reboot"
 alias p10kred="sed -i 's/typeset -g POWERLEVEL9K_DIR_BACKGROUND=4/typeset -g POWERLEVEL9K_DIR_BACKGROUND=1/' ~/.p10k.zsh"
 alias open="xdg-open"
-alias aoc="/home/adriannic/Universidad/3/1/aoc/aoc-docker-image"
-alias kirby="dolphin-emu -e ~/Juegos/Roms/Kirby\'s\ Return\ to\ Dream\ Land.iso"
 alias time="/usr/bin/time"
-[ $TERM = "xterm-kitty" ] && alias icat="kitty +kitten icat"
-[ $TERM = "xterm-kitty" ] && alias diff="kitty +kitten diff"
 
 ## Laptop specific aliases
-alias torre="ssh adriannic@88.23.101.208"
+alias torre="ssh adriannic@88.22.166.53"
 
 ## Desktop specific aliases
 alias towindows="systemctl reboot --boot-loader-entry=auto-windows"
