@@ -51,6 +51,8 @@ alias p10kred="sed -i 's/typeset -g POWERLEVEL9K_DIR_BACKGROUND=4/typeset -g POW
 alias open="xdg-open"
 alias time="/usr/bin/time"
 
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
 ## Laptop specific aliases
 alias torre="ssh adriannic@88.22.166.53"
 
